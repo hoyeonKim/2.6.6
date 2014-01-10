@@ -21,6 +21,7 @@
 		006DBC57187FCAC200C0F3B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006DBC39187FCAC200C0F3B7 /* UIKit.framework */; };
 		006DBC5F187FCAC200C0F3B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 006DBC5D187FCAC200C0F3B7 /* InfoPlist.strings */; };
 		006DBC61187FCAC200C0F3B7 /* __6_6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006DBC60187FCAC200C0F3B7 /* __6_6Tests.m */; };
+		006DBC6C187FD74100C0F3B7 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 006DBC6B187FD74100C0F3B7 /* DetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		006DBC5C187FCAC200C0F3B7 /* 2.6.6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2.6.6Tests-Info.plist"; sourceTree = "<group>"; };
 		006DBC5E187FCAC200C0F3B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		006DBC60187FCAC200C0F3B7 /* __6_6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __6_6Tests.m; sourceTree = "<group>"; };
+		006DBC6A187FD74100C0F3B7 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		006DBC6B187FD74100C0F3B7 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				006DBC3E187FCAC200C0F3B7 /* InfoPlist.strings */,
 				006DBC41187FCAC200C0F3B7 /* main.m */,
 				006DBC43187FCAC200C0F3B7 /* 2.6.6-Prefix.pch */,
+				006DBC6A187FD74100C0F3B7 /* DetailVC.h */,
+				006DBC6B187FD74100C0F3B7 /* DetailVC.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				006DBC4C187FCAC200C0F3B7 /* ViewController.m in Sources */,
+				006DBC6C187FD74100C0F3B7 /* DetailVC.m in Sources */,
 				006DBC46187FCAC200C0F3B7 /* AppDelegate.m in Sources */,
 				006DBC42187FCAC200C0F3B7 /* main.m in Sources */,
 			);
