@@ -22,7 +22,7 @@
     return [data count];
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"CELL_ID"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CELL_ID"];
     cell.textLabel.text=[data objectAtIndex:indexPath.row];
     return cell;
 }
